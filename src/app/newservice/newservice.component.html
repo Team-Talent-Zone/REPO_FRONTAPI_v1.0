@@ -1,0 +1,131 @@
+<div class="container p-0">
+
+
+	<div class="row">
+		<div class="col-md-5 col-xl-4">
+
+			<div class="card">
+				<div class="card-header">
+					<h5 class="card-title mb-0">Service</h5>
+				</div>
+
+				<div class="list-group list-group-flush" role="tablist">
+					<a class="list-group-item list-group-item-action active" data-toggle="list" href="#account"
+						role="tab">
+						Account
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#password" role="tab">
+						Password
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+						Privacy and safety
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+						Email notifications
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+						Web notifications
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+						Widgets
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+						Your data
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+						Stop Service
+					</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" routerLink='/editservice'
+						role="tab">
+						Back To All Service List
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-7 col-xl-8">
+			<div class="tab-content">
+				<div class="tab-pane fade show active" id="account" role="tabpanel">
+
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title mb-0">Serivce info</h5>
+						</div>
+						<div class="card-body">
+							<form>
+								<div class="form-row">
+									<div class="form-group col-md-6">
+										<label for="inputFirstName">First name</label>
+										<input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+                                    </div>
+										<div class="form-group col-md-6">
+											<label for="inputLastName">Last name</label>
+											<input type="text" class="form-control" id="inputLastName" placeholder="Last name">
+                                    </div>
+										</div>
+										<div class="form-group">
+											<label for="inputEmail4">Email</label>
+											<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                </div>
+											<div class="form-group">
+												<label for="inputAddress">Address</label>
+												<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div>
+												<div class="form-group">
+													<label for="inputAddress2">Address 2</label>
+													<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                </div>
+													<div class="form-row">
+														<div class="form-group col-md-6">
+															<label for="inputCity">City</label>
+															<input type="text" class="form-control" id="inputCity">
+                                    </div>
+															<div class="form-group col-md-4">
+																<label for="inputState">State</label>
+																<select id="inputState" class="form-control">
+                                            <option selected="">Choose...</option>
+                                            <option>...</option>
+                                        </select>
+															</div>
+															<div class="form-group col-md-2">
+																<label for="inputZip">Zip</label>
+																<input type="text" class="form-control" id="inputZip">
+                                    </div>
+															</div>
+															<button type="submit" class="btn btn-primary">Save changes</button>
+							</form>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="tab-pane fade" id="password" role="tabpanel">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Password</h5>
+
+							<form>
+								<div class="form-group">
+									<label for="inputPasswordCurrent">Current password</label>
+									<input type="password" class="form-control" id="inputPasswordCurrent">
+									<small><a href="#">Forgot your password?</a></small>
+								</div>
+								<div class="form-group">
+									<label for="inputPasswordNew">New password</label>
+									<input type="password" class="form-control" id="inputPasswordNew">
+                                </div>
+									<div class="form-group">
+										<label for="inputPasswordNew2">Verify password</label>
+										<input type="password" class="form-control" id="inputPasswordNew2">
+                                </div>
+										<button type="submit" class="btn btn-primary">Save changes</button>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

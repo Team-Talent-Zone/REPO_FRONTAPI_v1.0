@@ -1,0 +1,18 @@
+
+.carousel-inner   img {
+
+height:350px;
+object-fit: initial;
+
+}
+
+.carousel-caption{
+  text-align: left;
+  right:50px;
+  top:70px;
+  font-size: 20px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}

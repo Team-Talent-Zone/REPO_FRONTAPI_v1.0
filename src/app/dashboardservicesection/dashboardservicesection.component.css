@@ -1,0 +1,82 @@
+	.title-arch {
+		text-align: center;
+		margin: 50px 0;
+		font-size: 33px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+    color: rgb(255, 251, 0)
+	}
+.project {
+	width: 100%;
+	height: 500px;
+/*	background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);*/
+	background-size: cover;
+	background-position: center;
+	padding: 1 !important;
+	float:left;
+ }
+
+.project-2 {
+/*	background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);*/
+}
+
+.project-3 {
+/*	background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);*/
+}
+
+.project-4 {
+/*	background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);*/
+}
+
+.project-hover {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ background-color:   rgba(70, 66, 66, 0.5);
+	padding: 40% 30px !important;
+}
+
+.project-hover hr {
+	height: 30px;
+	width: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: rgb(253, 25, 25);
+	border: 0;
+  
+}
+
+.project-hover a {
+	color: rgb(139, 196, 148);
+	padding: 2px 22px;
+	line-height: 40px;
+border: 2px solid rgb(255, 255, 255);
+	-webkit-transition: all 0.5s ease-in-out;
+border: 2px solid rgb(255, 255, 255);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+	border-color: rgba(51, 51, 51, 1);
+	color: rgba(51, 51, 51, 1);
+	background-color: rgb(178, 236, 162);
+}
+
+.project:hover .project-hover {
+	opacity: 1;
+}
+
+.project:hover .project-hover hr {
+	width: 100%;
+	height: 5px;
+}
+
